@@ -1,0 +1,10 @@
+<resources>
+    <!-- This XML theme only controls the pre-Compose launch/splash frame
+         (window background, status bar) — all real UI styling comes from
+         OriTheme in Theme.kt via Compose. -->
+    <style name="Theme.Ori" parent="android:Theme.Material.Light.NoActionBar">
+        <item name="android:windowBackground">@android:color/white</item>
+        <item name="android:statusBarColor">@android:color/white</item>
+        <item name="android:windowLightStatusBar">true</item>
+    </style>
+</resources>
