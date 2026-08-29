@@ -4,13 +4,13 @@ plugins {
 }
 
 android {
-    namespace = "com.example.ori20"
+    namespace = "com.tomatoketchup.ori"
     compileSdk {
         version = release(37)
     }
 
     defaultConfig {
-        applicationId = "com.example.ori20"
+        applicationId = "com.tomatoketchup.ori"
         minSdk = 24
         targetSdk = 37
         versionCode = 1
@@ -44,6 +44,7 @@ dependencies {
     implementation(libs.androidx.compose.ui.tooling.preview)
     implementation(libs.androidx.core.ktx)
     implementation(libs.androidx.lifecycle.runtime.ktx)
+    implementation("com.google.android.gms:play-services-nearby:19.3.0")
     testImplementation(libs.junit)
     androidTestImplementation(platform(libs.androidx.compose.bom))
     androidTestImplementation(libs.androidx.compose.ui.test.junit4)

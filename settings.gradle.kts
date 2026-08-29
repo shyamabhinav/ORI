@@ -22,5 +22,6 @@ dependencyResolutionManagement {
     }
 }
 
-rootProject.name = "ori2.0"
+rootProject.name = "ORI"
 include(":app")
+ 
